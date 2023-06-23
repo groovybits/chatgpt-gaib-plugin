@@ -10,10 +10,10 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://chatgpt-gaib-plugin-7ph3ch57aq-uc.a.run.app/.well-known/openapi.yaml",
+    "url": "https://gaib-buddhist.groovy.org/.well-known/openapi.yaml",
     "has_user_authentication": false
   },
-  "logo_url": "https://chatgpt-gaib-plugin-7ph3ch57aq-uc.a.run.app/.well-known/logo.png",
+  "logo_url": "https://gaib-buddhist.groovy.org/.well-known/logo.png",
   "contact_email": "gaib@groovy.org", 
   "legal_info_url": "http://groovy.org/legal-info"
 }
