@@ -35,10 +35,10 @@ app.mount("/.well-known", StaticFiles(directory=".well-known"), name="static")
 
 # Create a sub-application, in order to access just the query endpoint in an OpenAPI schema, found at http://0.0.0.0:8000/sub/openapi.json when the app is running locally
 sub_app = FastAPI(
-    title="Sacred Texts Library",
-    description="Sacred texts library for retrieval of context relating to theological and spiritual concepts.",
+    title="Video Engineer Library",
+    description="Video Engineer library for retrieval of context relating to video engineering concepts.",
     version="1.0.0",
-    servers=[{"url": "https://gaib-buddhist.groovy.org"}],
+    servers=[{"url": "https://gaib-video-engineer.groovy.org"}],
     dependencies=[Depends(validate_token)],
 )
 app.mount("/sub", sub_app)
