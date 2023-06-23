@@ -1,6 +1,6 @@
 {
   "schema_version": "v1",
-  "name_for_model": "videoengineer-retrieval",
+  "name_for_model": "videoengineer",
   "name_for_human": "Video Engineer Library",
   "description_for_human": "Video Engineer library for retrieval of context relating to Video Engineering concepts.",
   "description_for_model": "Video Engineer library works by searching through a document vectorstore to find answers to questions and retrieve relevant information. Use it whenever a user asks something that has to do with video engineering or other media and streaming related concepts.",
