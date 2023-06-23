@@ -21,9 +21,11 @@ from services.date import to_unix_timestamp
 PINECONE_API_KEY = os.environ.get("PINECONE_API_KEY")
 PINECONE_ENVIRONMENT = os.environ.get("PINECONE_ENVIRONMENT")
 PINECONE_INDEX = os.environ.get("PINECONE_INDEX")
+PINECONE_NAMESPACE = os.environ.get("PINECONE_NAMESPACE")
 assert PINECONE_API_KEY is not None
 assert PINECONE_ENVIRONMENT is not None
 assert PINECONE_INDEX is not None
+assert PINECONE_NAMESPACE is not None
 
 # Initialize Pinecone with the API key and environment
 pinecone.init(api_key=PINECONE_API_KEY, environment=PINECONE_ENVIRONMENT)
@@ -126,7 +128,7 @@ class PineconeDataStore(DataStore):
             try:
                 # Query the index with the query embedding, filter, and top_k
                 query_response = self.index.query(
-                    # namespace=namespace,
+                    namespace=PINECONE_NAMESPACE,
                     top_k=query.top_k,
                     vector=query.embedding,
                     filter=pinecone_filter,
