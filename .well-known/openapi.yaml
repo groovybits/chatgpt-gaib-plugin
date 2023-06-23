@@ -1,7 +1,7 @@
 openapi: 3.0.2
 info:
-  title: GAIB Groovy AI Bot
-  description: GAIB creates stories and answers questions about buddhism and video engineering.
+  title: Sacred Texts Library
+  description: Sacred texts library for retrieval of context relating to theological and spiritual concepts.
   version: 1.0.0
   servers:
     - url: http://localhost:3333
