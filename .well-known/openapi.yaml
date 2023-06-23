@@ -1,6 +1,6 @@
 openapi: 3.0.2
 info:
-  title: GAIB The Groovy AI Bot
+  title: GAIB Groovy AI Bot
   description: GAIB creates stories and answers questions about buddhism and video engineering.
   version: 1.0.0
   servers:

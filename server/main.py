@@ -35,7 +35,7 @@ app.mount("/.well-known", StaticFiles(directory=".well-known"), name="static")
 
 # Create a sub-application, in order to access just the query endpoint in an OpenAPI schema, found at http://0.0.0.0:8000/sub/openapi.json when the app is running locally
 sub_app = FastAPI(
-    title="GAIB The Groovy AI Bot",
+    title="GAIB Groovy AI Bot",
     description="GAIB creates stories or gives wisdom and video engineering knowledge",
     version="1.0.0",
     servers=[{"url": "https://ai.groovy.org"}],

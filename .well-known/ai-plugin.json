@@ -1,7 +1,7 @@
 {
   "schema_version": "v1",
   "name_for_model": "retrieval",
-  "name_for_human": "GAIB The Groovy AI Bot",
+  "name_for_human": "GAIB Groovy AI Bot",
   "description_for_human": "GAIB creates stories or gives wisdom and video engineering knowledge",
   "description_for_model": "GAIB creates stories or gives wisdom and video engineering knowledge by searching through the user's documents (such as files, emails, and more) to find answers to questions and retrieve relevant information. Use it whenever a user asks something that might be found in their personal information.",
   "auth": {
