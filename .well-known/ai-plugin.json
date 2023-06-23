@@ -1,6 +1,6 @@
 {
   "schema_version": "v1",
-  "name_for_model": "sacred-text-retrieval",
+  "name_for_model": "sacredtexts",
   "name_for_human": "Sacred Texts Library",
   "description_for_human": "Sacred texts library for retrieval of information relating to theological and spiritual concepts.",
   "description_for_model": "Sacred texts library works by searching through a document vectorstore to find answers to questions and retrieve relevant information. Use it whenever a user asks something that has to do with theology, spiritual topics, buddhism, hinduism, religion, or any world religions including indigineous shamanism.",
